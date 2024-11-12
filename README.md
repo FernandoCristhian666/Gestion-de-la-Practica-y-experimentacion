@@ -14,13 +14,13 @@ Se seleccionó Python como lenguaje de programación debido a su facilidad de us
 
 4. Código Implementado
 * Búsqueda de Mayor y Menor: Utiliza las funciones max y min para encontrar los valores límite en un arreglo.
-![image](https://github.com/user-attachments/assets/1d6ca0af-1043-4c75-a78f-d479c0c1b72d)
 
+![image](https://github.com/user-attachments/assets/7985ddec-7193-4424-9599-44a305ece51b)
 
 Ejemplo de efectividad:
 
+![image](https://github.com/user-attachments/assets/1d6ca0af-1043-4c75-a78f-d479c0c1b72d)
 
-![image](https://github.com/user-attachments/assets/7985ddec-7193-4424-9599-44a305ece51b)
 * Bubble Sort: Un algoritmo de ordenación básico que pasa repetidamente por el arreglo para ordenar elementos adyacentes.
 * Ordenación de selección: Un algoritmo que selecciona el elemento mínimo y lo coloca en la posición correcta en cada iteración.
 Se realizaron pruebas en diversos arreglos de datos para verificar la funcionalidad de los algoritmos. Los conjuntos de prueba incluían arreglos y ordenados, desordenados y con valores repetidos. Los resultados demostraron que ambos algoritmos ordenan correctamente, aunque presentan diferencias de eficiencia.
