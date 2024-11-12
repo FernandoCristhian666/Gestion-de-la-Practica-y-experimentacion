@@ -31,3 +31,4 @@ Durante el desarrollo, uno de los mayores desafíos fue optimizar los algoritmos
 8. Conclusión
 Los algoritmos de búsqueda y ordenación implementados resultan efectivos para resolver problemas simples de manipulación de arreglos. No obstante, en aplicaciones que manejan grandes volúmenes de datos, sería recomendable emplear algoritmos más avanzados. Esta actividad ha sido útil para fortalecer conocimientos fundamentales en programación y algoritmos.
 
+![image](https://github.com/user-attachments/assets/3770efd2-4ead-40e3-b1ed-3e38c82b4f76)
