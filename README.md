@@ -18,6 +18,8 @@ Se seleccionó Python como lenguaje de programación debido a su facilidad de us
 
 
 Ejemplo de efectividad:
+
+
 ![image](https://github.com/user-attachments/assets/7985ddec-7193-4424-9599-44a305ece51b)
 * Bubble Sort: Un algoritmo de ordenación básico que pasa repetidamente por el arreglo para ordenar elementos adyacentes.
 * Ordenación de selección: Un algoritmo que selecciona el elemento mínimo y lo coloca en la posición correcta en cada iteración.
@@ -29,12 +31,16 @@ Se realizaron pruebas en diversos arreglos de datos para verificar la funcionali
 
 
 Ejemplo de efectividad:
+
+
 ![image](https://github.com/user-attachments/assets/92a7a06f-f0c0-4b90-a908-2910a00c39b4)
 * Ordenación de selección: Aunque este algoritmo también presenta una complejidad temporal de, su enfoque en realizar menos intercambios lo hace ligeramente más eficiente en situaciones donde el costo de mover elementos es elevado. En lugar de realizar intercambios constantes durante cada pasada, Selection Sort selecciona el elemento mínimo de la sección no ordenada del arreglo y lo coloca en su posición definitiva en una sola operación por iteración. Esto permite una pequeña mejora en eficiencia en comparación con Bubble Sort, aunque sigue siendo limitado en su aplicación para grandes volúmenes de datos.
 ![image](https://github.com/user-attachments/assets/6ff70268-1621-480e-8704-4517a9a6d483)
 
 
 Ejemplo de efectividad:
+
+
 ![image](https://github.com/user-attachments/assets/d13985db-33ed-4df5-87f5-ce54b8d3f642)
 
 6. Análisis comparativo
