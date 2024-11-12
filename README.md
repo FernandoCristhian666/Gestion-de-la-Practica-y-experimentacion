@@ -15,6 +15,8 @@ Se seleccionó Python como lenguaje de programación debido a su facilidad de us
 4. Código Implementado
 * Búsqueda de Mayor y Menor: Utiliza las funciones max y min para encontrar los valores límite en un arreglo.
 ![image](https://github.com/user-attachments/assets/1d6ca0af-1043-4c75-a78f-d479c0c1b72d)
+
+
 Ejemplo de efectividad:
 ![image](https://github.com/user-attachments/assets/7985ddec-7193-4424-9599-44a305ece51b)
 * Bubble Sort: Un algoritmo de ordenación básico que pasa repetidamente por el arreglo para ordenar elementos adyacentes.
@@ -24,10 +26,14 @@ Se realizaron pruebas en diversos arreglos de datos para verificar la funcionali
 5. Observaciones y Reflexiones sobre la Eficiencia
 * Bubble Sort: Este algoritmo es simple y fácil de implementar, pero resulta ineficiente cuando se aplica a arreglos de gran tamaño debido a su necesidad de realizar múltiples pasadas a través del conjunto de datos. El tiempo de ejecución aumenta exponencialmente a medida que crece el tamaño del arreglo. Esta característica limita considerablemente su uso en aplicaciones que involucran grandes volúmenes de datos, ya que cada incremento en el tamaño del arreglo genera un crecimiento cuadrático en el número de comparaciones y movimientos.
 ![image](https://github.com/user-attachments/assets/7d4ac4b8-1670-465d-95a0-c7ae0f33d8d5)
+
+
 Ejemplo de efectividad:
 ![image](https://github.com/user-attachments/assets/92a7a06f-f0c0-4b90-a908-2910a00c39b4)
 * Ordenación de selección: Aunque este algoritmo también presenta una complejidad temporal de, su enfoque en realizar menos intercambios lo hace ligeramente más eficiente en situaciones donde el costo de mover elementos es elevado. En lugar de realizar intercambios constantes durante cada pasada, Selection Sort selecciona el elemento mínimo de la sección no ordenada del arreglo y lo coloca en su posición definitiva en una sola operación por iteración. Esto permite una pequeña mejora en eficiencia en comparación con Bubble Sort, aunque sigue siendo limitado en su aplicación para grandes volúmenes de datos.
 ![image](https://github.com/user-attachments/assets/6ff70268-1621-480e-8704-4517a9a6d483)
+
+
 Ejemplo de efectividad:
 ![image](https://github.com/user-attachments/assets/d13985db-33ed-4df5-87f5-ce54b8d3f642)
 
