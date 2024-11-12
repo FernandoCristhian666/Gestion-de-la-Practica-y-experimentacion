@@ -14,14 +14,21 @@ Se seleccionó Python como lenguaje de programación debido a su facilidad de us
 
 4. Código Implementado
 * Búsqueda de Mayor y Menor: Utiliza las funciones max y min para encontrar los valores límite en un arreglo.
+Ejemplo de efectividad:
+![image](https://github.com/user-attachments/assets/1d6ca0af-1043-4c75-a78f-d479c0c1b72d)
+
 * Bubble Sort: Un algoritmo de ordenación básico que pasa repetidamente por el arreglo para ordenar elementos adyacentes.
 * Ordenación de selección: Un algoritmo que selecciona el elemento mínimo y lo coloca en la posición correcta en cada iteración.
 Se realizaron pruebas en diversos arreglos de datos para verificar la funcionalidad de los algoritmos. Los conjuntos de prueba incluían arreglos y ordenados, desordenados y con valores repetidos. Los resultados demostraron que ambos algoritmos ordenan correctamente, aunque presentan diferencias de eficiencia.
 
 5. Observaciones y Reflexiones sobre la Eficiencia
 * Bubble Sort: Este algoritmo es simple y fácil de implementar, pero resulta ineficiente cuando se aplica a arreglos de gran tamaño debido a su necesidad de realizar múltiples pasadas a través del conjunto de datos. El tiempo de ejecución aumenta exponencialmente a medida que crece el tamaño del arreglo. Esta característica limita considerablemente su uso en aplicaciones que involucran grandes volúmenes de datos, ya que cada incremento en el tamaño del arreglo genera un crecimiento cuadrático en el número de comparaciones y movimientos.
+Ejemplo de efectividad:
+![image](https://github.com/user-attachments/assets/92a7a06f-f0c0-4b90-a908-2910a00c39b4)
 * Ordenación de selección: Aunque este algoritmo también presenta una complejidad temporal de, su enfoque en realizar menos intercambios lo hace ligeramente más eficiente en situaciones donde el costo de mover elementos es elevado. En lugar de realizar intercambios constantes durante cada pasada, Selection Sort selecciona el elemento mínimo de la sección no ordenada del arreglo y lo coloca en su posición definitiva en una sola operación por iteración. Esto permite una pequeña mejora en eficiencia en comparación con Bubble Sort, aunque sigue siendo limitado en su aplicación para grandes volúmenes de datos.
-  
+Ejemplo de efectividad:
+![image](https://github.com/user-attachments/assets/d13985db-33ed-4df5-87f5-ce54b8d3f642)
+
 6. Análisis comparativo
 La comparación entre ambos algoritmos muestra que Selection Sort puede ser más rápido en algunos casos debido a la menor cantidad de intercambios. Sin embargo, ambos son menos eficientes que algoritmos avanzados (como Quick Sort o Merge Sort) en grandes volúmenes de datos.
 
@@ -31,4 +38,4 @@ Durante el desarrollo, uno de los mayores desafíos fue optimizar los algoritmos
 8. Conclusión
 Los algoritmos de búsqueda y ordenación implementados resultan efectivos para resolver problemas simples de manipulación de arreglos. No obstante, en aplicaciones que manejan grandes volúmenes de datos, sería recomendable emplear algoritmos más avanzados. Esta actividad ha sido útil para fortalecer conocimientos fundamentales en programación y algoritmos.
 
-![image](https://github.com/user-attachments/assets/3770efd2-4ead-40e3-b1ed-3e38c82b4f76)
+
